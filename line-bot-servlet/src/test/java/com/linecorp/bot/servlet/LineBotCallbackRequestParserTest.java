@@ -56,7 +56,7 @@ public class LineBotCallbackRequestParserTest {
 
     @Spy
     private LineSignatureValidator lineSignatureValidator = new LineSignatureValidator(
-            "SECRET".getBytes(StandardCharsets.UTF_8));
+            "53580e5121a5cf757d4ea3342b91b2da".getBytes(StandardCharsets.UTF_8));
 
     private LineBotCallbackRequestParser lineBotCallbackRequestParser;
 
