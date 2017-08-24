@@ -24,7 +24,7 @@ import org.junit.Test;
 import org.springframework.util.Base64Utils;
 
 public class LineSignatureValidatorTest {
-    private static final String channelSecret = "SECRET";
+    private static final String channelSecret = "53580e5121a5cf757d4ea3342b91b2da";
 
     @Test
     public void validateSignature() throws Exception {
