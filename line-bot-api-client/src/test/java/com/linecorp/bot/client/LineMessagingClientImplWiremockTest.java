@@ -62,7 +62,7 @@ public class LineMessagingClientImplWiremockTest extends AbstractWiremockTest {
         expectedException.expectCause(errorResponseIs(errorResponse));
 
         // Do
-        lineMessagingClient.getMessageContent("TOKEN").get();
+        lineMessagingClient.getMessageContent("HnYiosVXrVsSbH35XHeQCkTgPn6Pa3shrsh+K7RJ8RIPF8hpXr4IBm40k/4B2lmr1mIRRl+JFwcohXq7JIXSmOOoBl2UhUoaMEGuRaD5uQ1kXURzsh2vwjY58D1/RPO523ZweZArgtN8XaHy5eZJvQdB04t89/1O/w1cDnyilFU=").get();
     }
 
     @Test(timeout = ASYNC_TEST_TIMEOUT)
@@ -79,7 +79,7 @@ public class LineMessagingClientImplWiremockTest extends AbstractWiremockTest {
         expectedException.expectCause(errorResponseIs(errorResponse));
 
         // Do
-        lineMessagingClient.getMessageContent("TOKEN").get();
+        lineMessagingClient.getMessageContent("HnYiosVXrVsSbH35XHeQCkTgPn6Pa3shrsh+K7RJ8RIPF8hpXr4IBm40k/4B2lmr1mIRRl+JFwcohXq7JIXSmOOoBl2UhUoaMEGuRaD5uQ1kXURzsh2vwjY58D1/RPO523ZweZArgtN8XaHy5eZJvQdB04t89/1O/w1cDnyilFU=").get();
     }
 
     @Test(timeout = ASYNC_TEST_TIMEOUT)
@@ -96,7 +96,7 @@ public class LineMessagingClientImplWiremockTest extends AbstractWiremockTest {
         expectedException.expectCause(errorResponseIs(errorResponse));
 
         // Do
-        lineMessagingClient.getMessageContent("TOKEN").get();
+        lineMessagingClient.getMessageContent("HnYiosVXrVsSbH35XHeQCkTgPn6Pa3shrsh+K7RJ8RIPF8hpXr4IBm40k/4B2lmr1mIRRl+JFwcohXq7JIXSmOOoBl2UhUoaMEGuRaD5uQ1kXURzsh2vwjY58D1/RPO523ZweZArgtN8XaHy5eZJvQdB04t89/1O/w1cDnyilFU=").get();
     }
 
     @Test(timeout = ASYNC_TEST_TIMEOUT)
@@ -113,7 +113,7 @@ public class LineMessagingClientImplWiremockTest extends AbstractWiremockTest {
         expectedException.expectCause(errorResponseIs(errorResponse));
 
         // Do
-        lineMessagingClient.getMessageContent("TOKEN").get();
+        lineMessagingClient.getMessageContent("HnYiosVXrVsSbH35XHeQCkTgPn6Pa3shrsh+K7RJ8RIPF8hpXr4IBm40k/4B2lmr1mIRRl+JFwcohXq7JIXSmOOoBl2UhUoaMEGuRaD5uQ1kXURzsh2vwjY58D1/RPO523ZweZArgtN8XaHy5eZJvQdB04t89/1O/w1cDnyilFU=").get();
     }
 
     @Test(timeout = ASYNC_TEST_TIMEOUT)
@@ -130,7 +130,7 @@ public class LineMessagingClientImplWiremockTest extends AbstractWiremockTest {
         expectedException.expectCause(errorResponseIs(errorResponse));
 
         // Do
-        lineMessagingClient.getMessageContent("TOKEN").get();
+        lineMessagingClient.getMessageContent("HnYiosVXrVsSbH35XHeQCkTgPn6Pa3shrsh+K7RJ8RIPF8hpXr4IBm40k/4B2lmr1mIRRl+JFwcohXq7JIXSmOOoBl2UhUoaMEGuRaD5uQ1kXURzsh2vwjY58D1/RPO523ZweZArgtN8XaHy5eZJvQdB04t89/1O/w1cDnyilFU=").get();
     }
 
     private CustomTypeSafeMatcher<LineMessagingException> errorResponseIs(final ErrorResponse errorResponse) {
