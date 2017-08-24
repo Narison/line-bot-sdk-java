@@ -47,7 +47,7 @@ public class LineMessagingServiceTest {
                 "http://" + mockWebServer.getHostName() + ':' + mockWebServer.getPort() +
                 "/CanContainsRelative/";
         target = LineMessagingServiceBuilder
-                .create("SECRET")
+                .create("53580e5121a5cf757d4ea3342b91b2da")
                 .apiEndPoint(apiEndPoint)
                 .build();
     }
