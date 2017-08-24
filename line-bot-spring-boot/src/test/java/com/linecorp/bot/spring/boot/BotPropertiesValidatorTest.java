@@ -44,8 +44,8 @@ public class BotPropertiesValidatorTest {
         // Do
         Set<ConstraintViolation<LineBotProperties>> constraintViolations =
                 VALIDATOR.validate(new LineBotProperties() {{
-                    setChannelSecret("SECRET");
-                    setChannelToken("TOKEN");
+                    setChannelSecret("53580e5121a5cf757d4ea3342b91b2da");
+                    setChannelToken("HnYiosVXrVsSbH35XHeQCkTgPn6Pa3shrsh+K7RJ8RIPF8hpXr4IBm40k/4B2lmr1mIRRl+JFwcohXq7JIXSmOOoBl2UhUoaMEGuRaD5uQ1kXURzsh2vwjY58D1/RPO523ZweZArgtN8XaHy5eZJvQdB04t89/1O/w1cDnyilFU=");
                 }});
 
         //Verify
@@ -57,7 +57,7 @@ public class BotPropertiesValidatorTest {
         // Do
         Set<ConstraintViolation<LineBotProperties>> constraintViolations =
                 VALIDATOR.validate(new LineBotProperties() {{
-                    setChannelSecret("SECRET");
+                    setChannelSecret("53580e5121a5cf757d4ea3342b91b2da");
                 }});
 
         //Verify
@@ -75,7 +75,7 @@ public class BotPropertiesValidatorTest {
         Set<ConstraintViolation<LineBotProperties>> constraintViolations =
                 VALIDATOR.validate(new LineBotProperties() {{
                     setChannelTokenSupplyMode(SUPPLIER);
-                    setChannelSecret("SECRET");
+                    setChannelSecret("53580e5121a5cf757d4ea3342b91b2da");
                 }});
 
         //Verify
@@ -88,8 +88,8 @@ public class BotPropertiesValidatorTest {
         Set<ConstraintViolation<LineBotProperties>> constraintViolations =
                 VALIDATOR.validate(new LineBotProperties() {{
                     setChannelTokenSupplyMode(SUPPLIER);
-                    setChannelSecret("SECRET");
-                    setChannelToken("TOKEN");
+                    setChannelSecret("53580e5121a5cf757d4ea3342b91b2da");
+                    setChannelToken("HnYiosVXrVsSbH35XHeQCkTgPn6Pa3shrsh+K7RJ8RIPF8hpXr4IBm40k/4B2lmr1mIRRl+JFwcohXq7JIXSmOOoBl2UhUoaMEGuRaD5uQ1kXURzsh2vwjY58D1/RPO523ZweZArgtN8XaHy5eZJvQdB04t89/1O/w1cDnyilFU=");
                 }});
 
         //Verify
