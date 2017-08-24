@@ -69,7 +69,7 @@ public class LineMessagingClientImplTest {
     public void replyMessageTest() throws Exception {
         whenCall(retrofitMock.replyMessage(any()),
                  BOT_API_SUCCESS_RESPONSE);
-        final ReplyMessage replyMessage = new ReplyMessage("token", new TextMessage("Message"));
+        final ReplyMessage replyMessage = new ReplyMessage("HnYiosVXrVsSbH35XHeQCkTgPn6Pa3shrsh+K7RJ8RIPF8hpXr4IBm40k/4B2lmr1mIRRl+JFwcohXq7JIXSmOOoBl2UhUoaMEGuRaD5uQ1kXURzsh2vwjY58D1/RPO523ZweZArgtN8XaHy5eZJvQdB04t89/1O/w1cDnyilFU=", new TextMessage("Message"));
 
         // Do
         final BotApiResponse botApiResponse =
