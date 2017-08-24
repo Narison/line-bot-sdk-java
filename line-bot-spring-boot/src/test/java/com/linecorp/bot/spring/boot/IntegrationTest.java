@@ -70,8 +70,8 @@ import okhttp3.mockwebserver.RecordedRequest;
 public class IntegrationTest {
 
     static {
-        System.setProperty("line.bot.channelSecret", "SECRET");
-        System.setProperty("line.bot.channelToken", "TOKEN");
+        System.setProperty("line.bot.channelSecret", "53580e5121a5cf757d4ea3342b91b2da");
+        System.setProperty("line.bot.channelToken", "HnYiosVXrVsSbH35XHeQCkTgPn6Pa3shrsh+K7RJ8RIPF8hpXr4IBm40k/4B2lmr1mIRRl+JFwcohXq7JIXSmOOoBl2UhUoaMEGuRaD5uQ1kXURzsh2vwjY58D1/RPO523ZweZArgtN8XaHy5eZJvQdB04t89/1O/w1cDnyilFU=");
     }
 
     @Autowired
